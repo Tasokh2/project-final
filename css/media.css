@@ -1,0 +1,102 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1024px) {
+    .books,
+    .books1,
+    .stairs {
+      display: none;
+    }
+  
+    .sect-one h2 {
+      font-size: 65px;
+      margin-top: 230px;
+      margin-left: 80px;
+    }
+  
+    .sect-two-text p {
+      width: 550px;
+      margin-left: 230px;
+    }
+  
+    .sect-three p {
+      width: 550px;
+      margin-left: 210px;
+    }
+  
+    .school-texts {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      gap: 40px;
+    }
+  
+    .text {
+      width: 310px;
+    }
+  
+    .sect-four p {
+      width: 550px;
+      margin-left: 210px;
+    }
+  
+    .sect-four-books {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  
+    /* ABOUT US*/
+  
+    .abt-us-sect-one h2 {
+      margin-left: -450px;
+    }
+  
+    /*SERVICES*/
+  
+    .services-sect-one h2 {
+      margin-left: -450px;
+    }
+  
+    .services-sect-two p {
+      margin-left: 80px;
+    }
+  
+    /*NEWS*/
+    .news-sect-one h2{
+      margin-left: -450px;
+    }
+  
+    .news-sect-two-info p{
+      width: 550px;
+      margin-left:40px ;
+    }
+  
+    /*CONTACTS*/
+  
+    .contacts-sect-one h2 {
+      margin-left: -450px;
+    }
+  
+    .icons {
+      margin-left: 370px;
+    }
+  
+    /*STORIES*/
+  
+    .story-sect-one h2 {
+      margin-left: -450px;
+    }
+  
+    .story-sect-one h3 {
+      margin-left: -390px;
+    }
+  }

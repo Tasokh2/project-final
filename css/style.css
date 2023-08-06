@@ -1,0 +1,971 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url("//cdn.web-fonts.ge/fonts/bpg-paragraph-chveulebrivi/css/bpg-paragraph-chveulebrivi.min.css");
+@import url("//cdn.web-fonts.ge/fonts/mg-glaho-drunk/css/mg-glaho-drunk.min.css");
+@import url("//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
+
+body {
+  background-color: #ffe6f3;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  color: #faadd5;
+}
+
+/*NAVIGATION*/
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #00509d;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+}
+
+@-webkit-keyframes move {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+header .logo {
+  width: 140px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  vertical-align: middle;
+  gap: 50px;
+  font-family: "BPG ParaGraph Chveulebrivi", sans-serif;
+  font-weight: 700;
+}
+
+header li {
+  color: white;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+header li:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*SECTION ONE*/
+
+.sect-one {
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+}
+
+.sect-one-parent {
+  margin-top: 88px;
+  height: 655px;
+  width: 1519px;
+  background: rgb(238, 174, 202);
+  background: -o-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: inline-block;
+}
+
+.stairs {
+  width: 450px;
+  margin-left: 1050px;
+  margin-top: 40px;
+}
+
+.books {
+  width: 330px;
+  margin-left: 810px;
+  margin-top: -545px;
+  margin-bottom: 30px;
+}
+
+.books1 {
+  width: 230px;
+  margin-left: 735px;
+  margin-top: -640px;
+  margin-bottom: 5px;
+}
+
+.sect-one-child h2 {
+  font-size: 65px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  margin-top: -480px;
+  padding-left: 100px;
+  width: 750px;
+  text-align: center;
+  line-height: 1.6;
+  color: #00509d;
+}
+
+/*SECTION TWO*/
+
+.sect-two {
+  margin-top: 150px;
+}
+
+.sect-two h2 {
+  font-size: 45px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6;
+  color: #00509d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sect-two-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.sect-two-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.sect-two-images img {
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+.sect-two-text {
+  margin-right: 270px;
+}
+
+.sect-two-text p {
+  text-align: center;
+  font-size: 24px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  color: #00509d;
+  margin-left: 310px;
+}
+
+/*SECTION THREE*/
+
+.sect-three {
+  margin-top: 150px;
+}
+
+.sect-three h2 {
+  font-size: 45px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6;
+  color: #00509d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sect-three p {
+  font-size: 24px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  color: #00509d;
+  width: 850px;
+  margin-left: 350px;
+}
+
+.school-texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.text-1 {
+  background-image: url(../images/cru.png);
+}
+
+.text-2 {
+  background-image: url(../images/shemodgoma.jpg);
+}
+
+.text-3 {
+  background-image: url(../images/ciyvi.png);
+}
+
+.text-4 {
+  background-image: url(../images/tye.webp);
+}
+
+.text {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  width: 310px;
+  height: 500px;
+  border-radius: 15px;
+  gap: 10px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.text:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 80%;
+}
+
+.text h1 {
+  color: white;
+  font-size: 45px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+  margin-top: 150px;
+}
+
+.text h3 {
+  color: white;
+  font-size: 25px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+  margin-top: 30px;
+}
+
+/*SECTION FOUR*/
+
+.sect-four {
+  margin-top: 150px;
+}
+
+.sect-four h2 {
+  font-size: 45px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6;
+  color: #00509d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sect-four p {
+  font-size: 24px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  color: #00509d;
+  width: 850px;
+  margin-left: 350px;
+}
+
+.sect-four-books {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-grid-row: 20;
+  grid-area: 20px;
+}
+
+.sect-four-books img {
+  margin-top: 80px;
+  width: 250px;
+  border-radius: 10px;
+  -webkit-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.sect-four-books img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/*Footer*/
+
+footer {
+  margin-top: 150px;
+  height: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -o-linear-gradient(top, #00509d, black);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#00509d),
+    to(black)
+  );
+  background: linear-gradient(to bottom, #00509d, black);
+}
+
+footer .logo {
+  width: 140px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+footer h5 {
+  color: white;
+  font-size: 20px;
+  font-family: "ALK Life", sans-serif;
+  line-height: 0.8;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+footer .socials {
+  margin: 0 auto;
+}
+
+footer i {
+  -webkit-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+footer i:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+footer .footer-copyright {
+  color: white;
+  font-size: 20px;
+  font-family: "ALK Life", sans-serif;
+  line-height: 0.8;
+  margin-left: 0 auto;
+}
+
+/*ABOUT US PAGE*/
+
+/*SECTION ONE*/
+
+.abt-us-sect-one,
+.services-sect-one,
+.news-sect-one,
+.contacts-sect-one {
+  margin-top: 88px;
+  height: 155px;
+  width: 1519px;
+  background: rgb(238, 174, 202);
+  background: -o-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: inline-block;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+}
+
+.abt-us-sect-one h2,
+.services-sect-one h2,
+.news-sect-one h2,
+.contacts-sect-one h2 {
+  font-size: 7cqw;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.6;
+  color: #00509d;
+  margin-top: -40px;
+  margin-left: 70px;
+}
+
+/*SECTION TWO*/
+
+.abt-us-sect-two {
+  margin-top: 140px;
+  margin-bottom: 100px;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+}
+
+.abt-us-info {
+  width: 900px;
+  height: 550px;
+  background: rgb(238, 174, 202);
+  background: -o-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border: #00509d solid 5px;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+
+.abt-us-info p {
+  font-size: 24px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  color: #00509d;
+  width: 850px;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.abt-us-stories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.abt-us-stories img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* SERVICES */
+
+/*SECTION TWO*/
+
+.services-sect-two {
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+}
+
+.services-sect-two p {
+  font-size: 24px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  color: #00509d;
+  width: 850px;
+  margin-left: 350px;
+  margin-bottom: 90px;
+  margin-top: 120px;
+}
+
+.services-sect-two h2 {
+  font-size: 45px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6;
+  color: #00509d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services-grade-stories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.services-grade-stories img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 90px;
+  -webkit-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.services-grade-stories img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 40%;
+}
+
+/*NEWS */
+
+/*SECTION TWO*/
+
+.news-sect-two {
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+}
+
+.news-sect-two h2 {
+  font-size: 45px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6;
+  color: #00509d;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 150px;
+}
+
+.news-sect-two-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.news-sect-two-info p {
+  font-size: 24px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.1;
+  color: #00509d;
+  width: 850px;
+  margin-bottom: 90px;
+  margin-top: 190px;
+}
+
+/*CONTACTS*/
+
+.contacts-sect-two {
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+}
+
+.contacts-sect-two h2 {
+  font-size: 45px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6;
+  color: #00509d;
+  text-align: center;
+  margin-top: 190px;
+}
+
+.form {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 450px;
+  height: 450px;
+  background: rgb(238, 174, 202);
+  background: -o-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border: #00509d solid 5px;
+}
+
+.icons {
+  margin-left: 630px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.icons i {
+  -webkit-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.icons i:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.contacts-info p {
+  font-size: 24px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.1;
+  color: #00509d;
+  text-align: center;
+}
+
+.form form {
+  height: 100%;
+  padding: 20px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.1;
+  color: #00509d;
+  text-align: left;
+}
+
+.form label {
+  margin-top: 20px;
+}
+
+.form input {
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border-color: #00509d;
+}
+
+.form textarea {
+  height: 100px;
+  resize: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline: none;
+  border-color: #00509d;
+}
+
+/*STORIES*/
+
+.cru {
+  margin-top: 88px;
+  height: 255px;
+  width: 1519px;
+  background-image: url(../images/cru.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+  color: white;
+}
+
+.shemodgoma {
+  margin-top: 88px;
+  height: 255px;
+  width: 1519px;
+  background-image: url(../images/shemodgoma.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+  color: white;
+}
+
+.ciyvi {
+  margin-top: 88px;
+  height: 255px;
+  width: 1519px;
+  background-image: url(../images/ciyvi.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+  color: white;
+}
+
+.tyeshi {
+  margin-top: 88px;
+  height: 255px;
+  width: 1519px;
+  background-image: url(../images/tye.webp);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+  color: white;
+}
+
+.jiuti-txa {
+  margin-top: 88px;
+  height: 255px;
+  width: 1519px;
+  background-image: url(../images/jiutitx.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+  color: #00509d;
+}
+
+.txa-gigo {
+  margin-top: 88px;
+  height: 255px;
+  width: 1519px;
+  background-image: url(../images/txadagigo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+  color: white;
+}
+
+.arwivi {
+  margin-top: 88px;
+  height: 255px;
+  width: 1519px;
+  background-image: url(../images/arwivi.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+  color: #00509d;
+}
+
+.story-sect-one h2 {
+  font-size: 6cqw;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.story-sect-one h3 {
+  font-size: 55px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: -10px;
+  margin-left: 70px;
+  opacity: 70%;
+}
+
+/* SECTION TWO*/
+
+.story-sect-two {
+  margin-top: 140px;
+  margin-bottom: 100px;
+  -webkit-animation: move 650ms 600ms backwards;
+  animation: move 650ms 600ms backwards;
+}
+
+.cru-story,
+.cru-game {
+  width: 900px;
+  height: 350px;
+  background: rgb(238, 174, 202);
+  background: -o-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border: #00509d solid 5px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.cru-story p {
+  font-size: 24px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1;
+  color: #00509d;
+  width: 850px;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.cru-game p {
+  font-size: 16px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.1;
+  color: #00509d;
+  width: 850px;
+  margin-left: 5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.cru-game label {
+  font-size: 16px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #00509d;
+}
+
+.go-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: -120px;
+}
+
+.go-back p {
+  font-size: 24px;
+  font-family: "MG Glaho Drunk", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.1;
+  color: #00509d;
+}
+
+.go-back i {
+  margin-left: 65px;
+}
